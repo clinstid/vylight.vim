@@ -15,8 +15,8 @@ endif
 let g:colors_name="vylight"
 
 
-hi Normal        guifg=#111111  guibg=white
-hi Title         guifg=black    guibg=white
+hi Normal        guifg=#111111  guibg=None
+hi Title         guifg=black    guibg=None
 hi Cursor                       guibg=#FF7311
 hi LineNr        guifg=#bebebe  guibg=#f8f8f8
 hi Visual                       guibg=#bbddff
@@ -26,7 +26,7 @@ hi StatusLineNC  guifg=#888888  guibg=#eeeeee  gui=none
 hi VertSplit     guifg=#eeeeee  guibg=#eeeeee  gui=none
 hi ModeMsg       guifg=black    guibg=#bbddff  gui=none
 hi ErrorMsg      guifg=black    guibg=#ffbbbb  gui=none
-hi Error         guifg=#bb3355  guibg=white    gui=none
+hi Error         guifg=#bb3355  guibg=None     gui=none
 hi Folded        guifg=#999999  guibg=#fafafa
 
 
@@ -34,7 +34,7 @@ hi Folded        guifg=#999999  guibg=#fafafa
 if version >= 700
   hi MatchParen                 guibg=#ccffdd  gui=none
   hi Pmenu       guifg=#60656f  guibg=#f0f5ff  gui=none
-  hi PmenuSel    guifg=white    guibg=#3585ef  gui=bold
+  hi PmenuSel    guifg=None     guibg=#3585ef  gui=bold
   hi PmenuSbar   guifg=#d0d5dd  guibg=#e0e5ee  gui=bold
   hi PmenuThumb  guifg=#e0e5ee  guibg=#c0c5dd  gui=bold
   hi Search                     guibg=#fcfcaa  gui=none
